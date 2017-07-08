@@ -1,0 +1,12 @@
+╰─➤  echo "S1JZUFRPTklTR1JFQVQ="| base64 -D                              66 ↵
+KRYPTONISGREAT%
+
+krypton1@krypton:~$ cat /krypton/krypton1/krypton2 | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+LEVEL TWO PASSWORD ROTTEN
+
+In [2]: shift=ord("M") - ord("A")
+
+In [3]: c = "OMQEMDUEQMEK"
+
+In [15]: ''.join([chr (65 + (ord(i) - shift - 65)%26) for i in c])
+Out[15]: 'CAESARISEASY'
