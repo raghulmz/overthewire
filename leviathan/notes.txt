@@ -1,0 +1,66 @@
+
+grep password bookmarks.html -i                                      1 ↵
+<DT><A HREF="http://leviathan.labs.overthewire.org/passwordus.html | This will be fixed later, the password for leviathan1 is rioGegei8m" ADD_DATE="1155384634" LAST_CHARSET="ISO-8859-1" ID="rdf:#$2wIU71">password to leviathan1</A>
+
+leviathan1@leviathan:~$ ltrace ./check
+__libc_start_main(0x804852d, 1, 0xffffd7c4, 0x80485f0 <unfinished ...>
+printf("password: ")                                                                             = 10
+getchar(0x8048680, 47, 0x804a000, 0x8048642password:
+)                                                     = 10
+getchar(0x8048680, 47, 0x804a000, 0x8048642
+)                                                     = 10
+getchar(0x8048680, 47, 0x804a000, 0x8048642
+)                                                     = 10
+strcmp("\n\n\n", "sex")                                                                          = -1
+puts("Wrong password, Good Bye ..."Wrong password, Good Bye ...
+)                                                             = 29
++++ exited (status 0) +++
+leviathan1@leviathan:~$
+leviathan1@leviathan:~$ ./check
+password: sex
+$ cat /etc/leviathan_pass/leviathan2
+ougahZi8Ta
+
+lrwxrwxrwx  1 leviathan2 leviathan2   30 Jul  8 06:42 file -> /etc/leviathan_pass/leviathan3
+-r-sr-x---  1 leviathan3 leviathan2 7506 Jun 15 11:38 printfile*
+leviathan2@leviathan:~$ touch "file .bashrc"
+leviathan2@leviathan:~$ ./printfile "file .bashrc"
+Ahdiemoo1j
+
+leviathan3@leviathan:~$ ltrace ./level3
+__libc_start_main(0x80485fe, 1, 0xffffd7c4, 0x80486d0 <unfinished ...>
+strcmp("h0no33", "kakaka")                                                                       = -1
+printf("Enter the password> ")                                                                   = 20
+fgets(Enter the password> kakaka
+"kakaka\n", 256, 0xf7fccc20)                                                               = 0xffffd5bc
+strcmp("kakaka\n", "snlprintf\n")                                                                = -1
+puts("bzzzzzzzzap. WRONG"bzzzzzzzzap. WRONG
+)                                                                       = 19
++++ exited (status 0) +++
+leviathan3@leviathan:~$ ./level3
+Enter the password> snlprintf
+[You've got shell]!
+$ whoami
+leviathan4
+$ cat /etc/leviathan_pass/leviathan4
+vuH0coox6m
+
+leviathan4@leviathan:~/.trash$ ./bin
+01010100 01101001 01110100 01101000 00110100 01100011 01101111 01101011 01100101 01101001 00001010
+
+In [5]: s= "01010100 01101001 01110100 01101000 00110100 01100011 01101111 011
+   ...: 01011 01100101 01101001 00001010"
+
+In [6]: print ''.join([chr(int(i, 2)) for i in s.split()])
+Tith4cokei
+
+leviathan5@leviathan:~$ ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+leviathan5@leviathan:~$ ./leviathan5
+UgaoFee4l 
+
+cat /etc/leviathan_pass/leviathan7
+ahy7MaeBo9
+
+leviathan7@leviathan:~$ cat CONGRATULATIONS
+Well Done, you seem to have used a *nix system before, now try something more serious.
+(Please don't post writeups, solutions or spoilers about the games on the web. Thank you!)
